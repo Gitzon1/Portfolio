@@ -450,9 +450,11 @@
             display: block;
             font-size: 2rem;
             margin: 3rem 0;
+
         }
     }
     
+
     </style>
 </head>
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -469,7 +471,9 @@
             <span class="active-nav"></span>
             <span class="animate" style="--i:2;"></span>
         </nav>
-          
+        
+            
+       
     </header>
     
    <!--home section-->
@@ -477,7 +481,7 @@
    <div class="home-content">
     <h1>Hi, I'm <span>Ebin E Gilbert </span></h1>
     <div class="text-design">
-        <h3>PG Student and a Junior Frontend-Developer</h3>
+        <h3>PG Student and a Frontend-Developer</h3>
         <div class="home-img">
 
             <img src="E:\Marian college\software engineering\portfolio\dp.png.png" alt="">
@@ -499,19 +503,21 @@
 
    </section>
 
+
 <!--next section aanu ith-->
 <section class="about" id="about">
     <h2>About<span>Me</span></h2>
 
 <div class="about-img">
 
- <img src="E:\Marian college\software engineering\portfolio\my image1.jpg" alt="">
+ <img src="E:\Marian college\software engineering\portfolio\dp.png.png" alt="">
 <span class="circle-spin"></span>
 
 </div>
 <div class="about-content">
     <h3><span>Student</span></h3>
     <p>My name is Ebin E Gilbert and I'm from Elappara, Idukki.I have completed my bachelors degree in computer applications from JPM arts and science college labbakkada.I'm curently pursuing my masters degree in computer applications from Marian college Kuttikkanam. I'm a junior Frontend-Developer. I know basic prorgamming languages like html, css, php, and moderate level of python, javascript.I have done small mini projects and main projects in my academic years. I'm not an expert I'm skill learning.</p>
+
 
 </section>
 <!--education section-->
@@ -529,7 +535,8 @@
             <p>Completed my 10th from Holy cross HSS kottayam with an 80% of marks.</p>
         </div>
     </div>
-    
+
+   
     <div class="education-content">
         <div class="content">
             <div class="year"><i class='bx bxs-calendar' ></i> 2018 - 2019</div>
@@ -557,10 +564,13 @@
                 <h3>Part time job</h3>
                 <p>Worked part time as a technition at a computer center.</p>
             </div>
-        </div>         
+        </div>
+    
+      
 </div>
 </div>
 </div>
+
 </secton>
 <!--skills inte section-->
 <section class="skills" id="skills">
@@ -585,7 +595,8 @@
                     <div class="progress">
                 <h3>PHP<span >30% </span></h3>
                  <div class="bar"><span></span></div>
-       </div>            
+       </div>
+                   
          </div>
     </div>
         </div>
@@ -596,8 +607,12 @@
         <div class="progress">
           <h3>Javascript<span> 5% </span></h3>
            <div class="bar"><span></span></div>
-        </div>   
+               </div>
+
+         
     </div>
+
+
 
 </section>
 <!-- next contact section-->
@@ -633,7 +648,10 @@
     <button type="submit" class="btn" onclick="Submitted()">Submit</button>
 </div>
 
+
 </form>
+
+
 
 </section>
     <!--footer section-->
@@ -650,7 +668,7 @@
 </footer>
 <script>
     function Submitted(){
-        alert("sumbitted successfully" );
+        alert("sumbitted successfully");
     }
     let menuIcon = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
@@ -669,11 +687,15 @@
             let height = sec.offsetHeight;
             let id = sec.getAttribute('id');
 
+
                 });
             }
         
+    
+
     let header = document.querySelector('header');
         header.classList.toggle('sticky', window.scrollY> 100);
+
 
 </script>
 
